@@ -1,0 +1,29 @@
+# Ficheiro: .gitignore
+
+# Ambientes Virtuais (ex: venv, env)
+/venv/
+/env/
+.venv/
+.env
+
+# Caches do Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ficheiros do Kivy e build
+.kivy/
+*.kv~
+bin/
+build/
+dist/
+*.spec
+
+# Ficheiros de IDEs (ex: VSCode, PyCharm)
+.vscode/
+.idea/
+
+# Ficheiros do sistema operativo
+.DS_Store
+Thumbs.db
